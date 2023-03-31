@@ -8,8 +8,6 @@ So in this case, we have n = 12 and r = 4. Therefore, we can calculate the numbe
 
 12C4 * 8C4 * 4C4 = (12! / (4! * 8!)) * (8! / (4! * 4!)) * (4! / (4! * 0!)) = 495 * 70 * 1 = 34650
 
-Therefore, there are 34650 ways that 12 students in a class can take 3 different tests if 4 students are to take each test.
-
 2-   a       b       c
          |       |       |
         ---     ---     ---
@@ -57,7 +55,7 @@ Substituting this value into the formula above, we get:
 
 P(at least one item is defective) = 1 - P(no item is defective) = 1 - (28 / 66) = 38/66
 
-Therefore, the probability that at least one item is defective is 38/66.
+the probability that at least one item is defective is 38/66.
 
 4- (A): The total number of ways to select three items from a box containing 15 items is:
 
