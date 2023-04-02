@@ -2,22 +2,9 @@
 
 1- nCr = n! / r!(n-r)!
 
-where n is the total number of students in the class and r is the number of students taking each test.
-
-So in this case, we have n = 12 and r = 4. Therefore, we can calculate the number of ways as follows:
-
 12C4 * 8C4 * 4C4 = (12! / (4! * 8!)) * (8! / (4! * 4!)) * (4! / (4! * 0!)) = 495 * 70 * 1 = 34650
 
-2-   a       b       c
-         |       |       |
-        ---     ---     ---
-       |   |   |   |   |   |
-       b   c   a   c   a   b
-       |   |   |   |   |   |
-       --- --- --- --- --- ---
-        |   |   |   |   |   |
-        c   b   b   a   c   a
-Each path from the root node to a leaf node represents one possible permutation of (a, b, c). Therefore, there are 3 * 2 * 1 = 6 permutations of (a, b, c).
+2- there are 3 * 2 * 1 = 6 permutations of (a, b, c).
 
 3- (A) The total number of ways to select two items from a box containing 12 items is:
 
